@@ -2,7 +2,6 @@ import { test, expect } from "@playwright/test";
 
 // Minimal compliance and UX checks without external deps (axe-core)
 // Focus on semantic landmarks, headings, alt text, link names, and basic error messaging.
-
 const BASE_URL =
   process.env.WEB_BASE_URL ||
   process.env.NEXT_PUBLIC_API_BASE ||
@@ -98,3 +97,4 @@ test.describe("Compliance :: Error Handling & UX Signals", () => {
     );
   });
 });
+
