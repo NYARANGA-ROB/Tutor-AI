@@ -33,6 +33,7 @@ RUN npm ci --legacy-peer-deps
 COPY web/ ./
 
 
+
 # Create .env.local with placeholder that will be replaced at runtime
 # Use a unique placeholder that can be safely replaced
 RUN echo "NEXT_PUBLIC_API_BASE=__NEXT_PUBLIC_API_BASE_PLACEHOLDER__" > .env.local
