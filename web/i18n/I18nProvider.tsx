@@ -4,6 +4,7 @@
 import { useEffect } from "react";
 import i18n from "i18next";
 
+
 import { initI18n, normalizeLanguage, type AppLanguage } from "./init";
 
 export function I18nProvider({
@@ -30,4 +31,5 @@ export function I18nProvider({
 
   return children;
 }
+
 
