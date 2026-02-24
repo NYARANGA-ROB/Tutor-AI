@@ -167,6 +167,7 @@ export const researchReducer = (
           stage: "researching",
           totalBlocks: event.total_blocks || state.global.totalBlocks,
         },
+        
         executionMode: event.execution_mode || "series",
         logs: [
           ...logs,
@@ -545,4 +546,5 @@ export const researchReducer = (
 export const useResearchReducer = () => {
   return useReducer(researchReducer, initialResearchState);
 };
+
 
