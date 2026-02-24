@@ -15,7 +15,6 @@ export const SIDEBAR_MIN_WIDTH = 64;
 export const SIDEBAR_MAX_WIDTH = 320;
 export const SIDEBAR_DEFAULT_WIDTH = 256;
 export const SIDEBAR_COLLAPSED_WIDTH = 64;
-
 /**
  * Default sidebar description
  */
@@ -35,3 +34,4 @@ export const DEFAULT_NAV_ORDER: SidebarNavOrder = {
     "/co_writer",
   ],
 };
+
