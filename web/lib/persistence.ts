@@ -68,6 +68,7 @@ export function saveToStorage<T>(key: string, value: T): void {
   if (typeof window === "undefined") {
     return;
   }
+  
 
   try {
     const prefixedKey = STORAGE_PREFIX + key;
@@ -257,4 +258,5 @@ export const EXCLUDE_FIELDS = {
   IDEAGEN: ["isGenerating", "progress"] as const,
   GUIDE: ["isLoading", "loadingMessage"] as const,
 } as const;
+
 
