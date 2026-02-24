@@ -24,6 +24,7 @@ export function convertLatexDelimiters(content: string): string {
   // Use a regex that handles multiline content
   // Note: In JSON strings, \[ becomes \\[ which in JS becomes \[
   result = result.replace(/\\\[([\s\S]*?)\\\]/g, "\n$$\n$1\n$$\n");
+ 
 
   // Convert \(...\) to $...$ (inline math)
   // Be careful not to match escaped parentheses in other contexts
@@ -55,5 +56,6 @@ export function processLatexContent(content: string): string {
   // Apply delimiter conversion
   return convertLatexDelimiters(str);
 }
+
 
 
