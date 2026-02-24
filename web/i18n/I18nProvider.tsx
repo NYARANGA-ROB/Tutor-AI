@@ -1,5 +1,6 @@
 "use client";
 
+
 import { useEffect } from "react";
 import i18n from "i18next";
 
@@ -29,3 +30,4 @@ export function I18nProvider({
 
   return children;
 }
+
