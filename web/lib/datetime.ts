@@ -4,6 +4,7 @@ export function getLocale(lang: Language): string {
   return lang === "zh" ? "zh-CN" : "en-US";
 }
 
+
 export function formatDate(
   date: Date,
   lang: Language,
@@ -23,3 +24,4 @@ export function formatTime(
 ): string {
   return new Intl.DateTimeFormat(getLocale(lang), options).format(date);
 }
+
