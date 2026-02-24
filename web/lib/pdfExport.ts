@@ -172,7 +172,6 @@ function splitCanvasIntoPages(
         pageCanvas.height, // Destination width, height
       );
     }
-
     pages.push(pageCanvas);
   }
 
@@ -305,5 +304,6 @@ export function preprocessMarkdownForPdf(markdown: string): string {
 }
 
 export default exportToPdf;
+
 
 
