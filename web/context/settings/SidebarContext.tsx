@@ -1,5 +1,4 @@
 "use client";
-
 import React, {
   createContext,
   useContext,
@@ -177,3 +176,4 @@ export const useSidebar = () => {
 
 // Re-export the SidebarNavOrder type for convenience
 export type { SidebarNavOrder };
+
