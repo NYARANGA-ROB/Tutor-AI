@@ -20,6 +20,7 @@ interface PersistentStateOptions<T> {
   enabled?: boolean;
 }
 
+
 /**
  * Custom hook that provides useState-like functionality with automatic localStorage persistence
  *
@@ -180,4 +181,5 @@ export function useStatePersistence<T extends Record<string, any>>(
 }
 
 export default usePersistentState;
+
 
