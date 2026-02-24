@@ -33,6 +33,7 @@ export const initialQuestionState: QuestionState = {
   logs: [],
 };
 
+
 // Helper to create a log entry
 const createLog = (
   content: string,
@@ -422,3 +423,4 @@ export const resetQuestionState = (): QuestionState => ({
   ...initialQuestionState,
   logs: [],
 });
+
