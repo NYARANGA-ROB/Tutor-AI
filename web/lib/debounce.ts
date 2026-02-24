@@ -13,6 +13,7 @@ export function debounce<T extends (...args: any[]) => any>(
       timeout = null;
       func(...args);
     };
+    
 
     if (timeout) {
       clearTimeout(timeout);
@@ -20,3 +21,4 @@ export function debounce<T extends (...args: any[]) => any>(
     timeout = setTimeout(later, wait);
   };
 }
+
