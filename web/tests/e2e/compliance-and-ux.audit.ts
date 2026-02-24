@@ -19,7 +19,6 @@ async function expectAnyVisible(
   }
   expect(false, message).toBe(true);
 }
-
 test.describe("Compliance :: Accessibility & Semantics", () => {
   test("home page exposes main landmark and H1", async ({ page }) => {
     await page.goto(`${BASE_URL}/`);
@@ -98,5 +97,6 @@ test.describe("Compliance :: Error Handling & UX Signals", () => {
     );
   });
 });
+
 
 
