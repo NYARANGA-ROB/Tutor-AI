@@ -15,7 +15,6 @@ import {
   DEFAULT_QUESTION_TOKEN_STATS,
 } from "@/types/question";
 import { LogEntry } from "@/types/common";
-
 // Context type
 interface QuestionContextType {
   questionState: QuestionContextState;
@@ -653,4 +652,5 @@ export const useQuestion = () => {
     throw new Error("useQuestion must be used within QuestionProvider");
   return context;
 };
+
 
