@@ -15,6 +15,7 @@ import { IdeaGenProvider } from "./ideagen";
  * This simplifies the provider hierarchy in the app layout.
  */
 
+
 export function CompositeProvider({ children }: { children: React.ReactNode }) {
   return (
     <UISettingsProvider>
@@ -33,6 +34,7 @@ export function CompositeProvider({ children }: { children: React.ReactNode }) {
   );
   
 }
+
 
 
 
