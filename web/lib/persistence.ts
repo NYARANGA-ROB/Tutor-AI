@@ -2,7 +2,6 @@
  * Persistence utility library for localStorage operations
  * Provides safe read/write operations with error handling, versioning, and selective persistence
  */
-
 // Storage key prefix to avoid conflicts with other apps
 const STORAGE_PREFIX = "schoolmate_";
 
@@ -257,6 +256,7 @@ export const EXCLUDE_FIELDS = {
   IDEAGEN: ["isGenerating", "progress"] as const,
   GUIDE: ["isLoading", "loadingMessage"] as const,
 } as const;
+
 
 
 
