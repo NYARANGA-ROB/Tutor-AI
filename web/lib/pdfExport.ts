@@ -7,7 +7,6 @@
  * - Correct page splitting without content overlap
  * - Page numbering
  */
-
 import jsPDF from "jspdf";
 import html2canvas from "html2canvas";
 
@@ -307,3 +306,4 @@ export function preprocessMarkdownForPdf(markdown: string): string {
 }
 
 export default exportToPdf;
+
