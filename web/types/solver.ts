@@ -1,5 +1,4 @@
 // Solver-specific types
-
 import { LogEntry, AgentStatus, TokenStats } from "./common";
 
 /**
@@ -80,3 +79,4 @@ export const INITIAL_SOLVER_STATE: SolverState = {
     progress: {},
   },
 };
+
