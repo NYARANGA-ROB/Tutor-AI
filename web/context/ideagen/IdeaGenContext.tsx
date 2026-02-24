@@ -8,7 +8,6 @@ interface IdeaGenContextType {
   ideaGenState: IdeaGenState;
   setIdeaGenState: React.Dispatch<React.SetStateAction<IdeaGenState>>;
 }
-
 const IdeaGenContext = createContext<IdeaGenContextType | undefined>(undefined);
 
 export function IdeaGenProvider({ children }: { children: React.ReactNode }) {
@@ -34,5 +33,6 @@ export const useIdeaGen = () => {
     throw new Error("useIdeaGen must be used within IdeaGenProvider");
   return context;
 };
+
 
 
