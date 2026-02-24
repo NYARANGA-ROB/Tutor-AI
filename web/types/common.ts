@@ -30,6 +30,7 @@ export interface TokenStats {
   cost: number;
 }
 
+
 /**
  * UI theme type
  */
@@ -47,4 +48,5 @@ export interface UISettings {
   theme: Theme;
   language: Language;
 }
+
 
