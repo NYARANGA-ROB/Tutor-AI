@@ -144,4 +144,4 @@ We follow a structured commit format to maintain a clean history:
 3. Follow the process above and submit your PR!
 
 Questions? Reach out on Discord.
-Let's build the future of AI tutoring together! 🚀
+
