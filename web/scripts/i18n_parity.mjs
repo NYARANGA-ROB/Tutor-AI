@@ -1,7 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
 
-
 function listJsonFiles(dir) {
   const out = [];
   for (const ent of fs.readdirSync(dir, { withFileTypes: true })) {
@@ -88,5 +87,6 @@ for (const rel of enFiles) {
 
 if (!ok) process.exit(1);
 console.log("[i18n:parity] OK");
+
 
 
