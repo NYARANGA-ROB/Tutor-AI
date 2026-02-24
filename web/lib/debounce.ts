@@ -14,11 +14,11 @@ export function debounce<T extends (...args: any[]) => any>(
       func(...args);
     };
     
-
     if (timeout) {
       clearTimeout(timeout);
     }
     timeout = setTimeout(later, wait);
   };
 }
+
 
