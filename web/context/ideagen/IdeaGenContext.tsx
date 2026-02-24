@@ -2,6 +2,7 @@
 import React, { createContext, useContext, useState } from "react";
 import { IdeaGenState, INITIAL_IDEAGEN_STATE } from "@/types/ideagen";
 
+
 // Context type
 interface IdeaGenContextType {
   ideaGenState: IdeaGenState;
@@ -33,4 +34,5 @@ export const useIdeaGen = () => {
     throw new Error("useIdeaGen must be used within IdeaGenProvider");
   return context;
 };
+
 
