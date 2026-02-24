@@ -17,6 +17,7 @@ export interface AgentStatus {
   [key: string]: "pending" | "running" | "done" | "error";
 }
 
+
 /**
  * Token usage statistics
  */
@@ -46,3 +47,4 @@ export interface UISettings {
   theme: Theme;
   language: Language;
 }
+
