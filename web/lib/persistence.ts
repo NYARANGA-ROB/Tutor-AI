@@ -7,7 +7,6 @@
 const STORAGE_PREFIX = "schoolmate_";
 
 const LANGUAGE_STORAGE_KEY = "schoolmate-language";
-
 // Current storage version for data migration support
 const STORAGE_VERSION = 1;
 
@@ -258,3 +257,4 @@ export const EXCLUDE_FIELDS = {
   IDEAGEN: ["isGenerating", "progress"] as const,
   GUIDE: ["isLoading", "loadingMessage"] as const,
 } as const;
+
