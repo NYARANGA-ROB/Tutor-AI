@@ -9,8 +9,8 @@
 /**
  * Convert LaTeX delimiters from \(...\) and \[...\] to $...$ and $$...$$
  * This makes the content compatible with remark-math for ReactMarkdown rendering.
- *
  
+
  * @param content - The content containing LaTeX with \(...\) or \[...\] delimiters
  * @returns Content with $...$ and $$...$$ delimiters
  */
@@ -55,6 +55,7 @@ export function processLatexContent(content: string): string {
   // Apply delimiter conversion
   return convertLatexDelimiters(str);
 }
+
 
 
 
