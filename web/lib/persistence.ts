@@ -11,7 +11,6 @@ const LANGUAGE_STORAGE_KEY = "schoolmate-language";
 const STORAGE_VERSION = 1;
 // Version key suffix
 const VERSION_SUFFIX = "_version";
-
 /**
  * Storage wrapper interface for storing versioned data
  */
@@ -258,6 +257,7 @@ export const EXCLUDE_FIELDS = {
   IDEAGEN: ["isGenerating", "progress"] as const,
   GUIDE: ["isLoading", "loadingMessage"] as const,
 } as const;
+
 
 
 
