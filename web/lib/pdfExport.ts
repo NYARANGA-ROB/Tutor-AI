@@ -9,7 +9,6 @@
  */
 import jsPDF from "jspdf";
 import html2canvas from "html2canvas";
-
 export interface PdfExportOptions {
   /** Filename for the PDF (without .pdf extension) */
   filename?: string;
@@ -306,4 +305,5 @@ export function preprocessMarkdownForPdf(markdown: string): string {
 }
 
 export default exportToPdf;
+
 
