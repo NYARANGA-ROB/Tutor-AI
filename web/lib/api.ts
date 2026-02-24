@@ -22,7 +22,6 @@ export const API_BASE_URL =
     );
   })();
 
-
 /**
  * Construct a full API URL from a path
  * @param path - API path (e.g., '/api/v1/knowledge/list')
@@ -59,5 +58,6 @@ export function wsUrl(path: string): string {
 
   return `${normalizedBase}${normalizedPath}`;
 }
+
 
 
