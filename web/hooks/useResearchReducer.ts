@@ -9,6 +9,7 @@ import {
   ReportOutline,
 } from "../types/research";
 
+
 export const initialResearchState: ResearchState = {
   global: {
     stage: "idle",
@@ -544,3 +545,4 @@ export const researchReducer = (
 export const useResearchReducer = () => {
   return useReducer(researchReducer, initialResearchState);
 };
+
