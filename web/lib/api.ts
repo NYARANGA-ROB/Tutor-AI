@@ -1,5 +1,6 @@
 // API configuration and utility functions
 
+
 // Get API base URL from environment variable
 // This is automatically set by start_web.py based on config/main.yaml
 // The .env.local file is auto-generated on startup with the correct backend port
@@ -57,3 +58,4 @@ export function wsUrl(path: string): string {
 
   return `${normalizedBase}${normalizedPath}`;
 }
+
