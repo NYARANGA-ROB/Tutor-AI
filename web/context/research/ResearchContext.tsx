@@ -1,5 +1,4 @@
 "use client";
-
 import React, {
   createContext,
   useContext,
@@ -227,3 +226,4 @@ export const useResearch = () => {
     throw new Error("useResearch must be used within ResearchProvider");
   return context;
 };
+
