@@ -30,6 +30,8 @@ export function CompositeProvider({ children }: { children: React.ReactNode }) {
       </SidebarProvider>
     </UISettingsProvider>
   );
+  
 }
+
 
 
