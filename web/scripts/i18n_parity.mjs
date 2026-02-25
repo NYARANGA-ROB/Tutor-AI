@@ -10,7 +10,6 @@ function listJsonFiles(dir) {
   }
   return out;
 }
-
 function loadJson(p) {
   return JSON.parse(fs.readFileSync(p, "utf8"));
 }
@@ -86,6 +85,7 @@ for (const rel of enFiles) {
 
 if (!ok) process.exit(1);
 console.log("[i18n:parity] OK");
+
 
 
 
