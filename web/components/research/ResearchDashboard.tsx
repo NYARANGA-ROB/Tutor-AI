@@ -36,7 +36,6 @@ import {
   FileDown,
 } from "lucide-react";
 type ProcessTab = "planning" | "researching" | "reporting";
-
 // Steps configuration - moved outside component to avoid recreation
 const steps: { id: ProcessTab; labelKey: string; icon: React.ElementType }[] = [
   { id: "planning", labelKey: "Planning", icon: GitBranch },
@@ -874,6 +873,7 @@ export const ResearchDashboard: React.FC<ResearchDashboardProps> = ({
     </div>
   );
 };
+
 
 
 
