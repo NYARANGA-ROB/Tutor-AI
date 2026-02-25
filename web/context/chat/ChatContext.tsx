@@ -1,5 +1,4 @@
 "use client";
-
 import React, {
   createContext,
   useContext,
@@ -265,3 +264,4 @@ export const useChat = () => {
   if (!context) throw new Error("useChat must be used within ChatProvider");
   return context;
 };
+
