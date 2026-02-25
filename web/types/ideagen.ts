@@ -12,7 +12,6 @@ export interface ResearchIdea {
   selected: boolean;
 }
 
-
 /**
  * IdeaGen state
  */
@@ -32,5 +31,6 @@ export const INITIAL_IDEAGEN_STATE: IdeaGenState = {
   generatedIdeas: [],
   progress: null,
 };
+
 
 
