@@ -7,7 +7,6 @@ interface MermaidProps {
   chart: string;
   className?: string;
 }
-
 // Initialize mermaid with custom config
 mermaid.initialize({
   startOnLoad: false,
@@ -92,4 +91,5 @@ export const Mermaid: React.FC<MermaidProps> = ({ chart, className = "" }) => {
 };
 
 export default Mermaid;
+
 
