@@ -14,7 +14,6 @@ import {
   Clock,
   Trash2,
 } from "lucide-react";
-
 interface LogEntry {
   type: string;
   content: string;
@@ -389,3 +388,4 @@ export const LogDrawer: React.FC<LogDrawerProps> = ({
     </>
   );
 };
+
