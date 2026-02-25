@@ -9,7 +9,6 @@ export interface TopicBlock {
   updated_at: string;
   metadata?: Record<string, any>;
 }
-
 export interface ToolTrace {
   tool_id?: string; // Optional as it might not be populated in all contexts
   citation_id?: string;
@@ -260,5 +259,6 @@ export const INITIAL_RESEARCH_CONTEXT_STATE: ResearchContextState = {
     citations: undefined,
   },
 };
+
 
 
