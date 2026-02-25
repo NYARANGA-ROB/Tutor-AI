@@ -35,7 +35,6 @@ import {
   Download,
   FileDown,
 } from "lucide-react";
-
 type ProcessTab = "planning" | "researching" | "reporting";
 
 // Steps configuration - moved outside component to avoid recreation
@@ -875,5 +874,6 @@ export const ResearchDashboard: React.FC<ResearchDashboardProps> = ({
     </div>
   );
 };
+
 
 
