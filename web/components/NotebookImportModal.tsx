@@ -13,7 +13,6 @@ import {
 } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { apiUrl } from "@/lib/api";
-
 interface Notebook {
   id: string;
   name: string;
@@ -353,4 +352,5 @@ export default function NotebookImportModal({
     </div>
   );
 }
+
 
