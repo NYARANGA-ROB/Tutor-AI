@@ -5,7 +5,6 @@ import remarkMath from "remark-math";
 import rehypeKatex from "rehype-katex";
 import "katex/dist/katex.min.css";
 import { processLatexContent } from "@/lib/latex";
-
 interface MarkdownRendererProps {
   content: string;
   className?: string;
@@ -122,4 +121,5 @@ export default function MarkdownRenderer({
     </div>
   );
 }
+
 
