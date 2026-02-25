@@ -1,5 +1,4 @@
 "use client";
-
 /**
  * ThemeScript - Initializes theme from localStorage before React hydration
  * This prevents the flash of wrong theme on page load
@@ -36,3 +35,4 @@ export default function ThemeScript() {
     />
   );
 }
+
