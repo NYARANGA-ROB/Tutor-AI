@@ -1,5 +1,4 @@
 "use client";
-
 import { useState, useEffect } from "react";
 import {
   Wifi,
@@ -439,3 +438,4 @@ export default function SystemStatus() {
     </div>
   );
 }
+
