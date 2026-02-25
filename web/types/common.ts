@@ -8,7 +8,6 @@ export interface LogEntry {
   timestamp?: number;
   level?: string;
 }
-
 /**
  * Generic agent status mapping
  */
@@ -47,6 +46,7 @@ export interface UISettings {
   theme: Theme;
   language: Language;
 }
+
 
 
 
