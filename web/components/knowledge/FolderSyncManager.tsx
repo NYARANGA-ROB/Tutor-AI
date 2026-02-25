@@ -131,7 +131,6 @@ export default function FolderSyncManager({
                   )}
                 </p>
               </div>
-
               <div className="bg-emerald-50 dark:bg-emerald-900/20 rounded-lg p-3 border border-emerald-100 dark:border-emerald-800">
                 <p className="text-xs text-emerald-700 dark:text-emerald-400">
                   <strong>{t("💡 Tip:")}</strong>{" "}
@@ -171,6 +170,7 @@ export default function FolderSyncManager({
     </>
   );
 }
+
 
 
 
