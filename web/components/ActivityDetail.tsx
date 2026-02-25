@@ -1,5 +1,4 @@
 "use client";
-
 import { useState, useEffect, useSyncExternalStore } from "react";
 import { createPortal } from "react-dom";
 import { X, FileText, HelpCircle, Search, Clock, Database } from "lucide-react";
@@ -278,3 +277,4 @@ export default function ActivityDetail({
 
   return createPortal(modalContent, document.body);
 }
+
