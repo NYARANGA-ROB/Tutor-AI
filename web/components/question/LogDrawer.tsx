@@ -115,7 +115,6 @@ export const LogDrawer: React.FC<LogDrawerProps> = ({
       done: progress?.status === "plan_ready" || isGenerating || isComplete,
     },
   ];
-
   // Mimic mode steps
   const mimicModeSteps = [
     {
@@ -385,6 +384,7 @@ export const LogDrawer: React.FC<LogDrawerProps> = ({
     </>
   );
 };
+
 
 
 
