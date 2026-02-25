@@ -19,7 +19,6 @@ interface ChatContextType {
   newChatSession: () => void;
 }
 const ChatContext = createContext<ChatContextType | undefined>(undefined);
-
 export function ChatProvider({ children }: { children: React.ReactNode }) {
   const [chatState, setChatState] = useState<ChatState>(INITIAL_CHAT_STATE);
   const chatWs = useRef<WebSocket | null>(null);
@@ -263,5 +262,6 @@ export const useChat = () => {
   if (!context) throw new Error("useChat must be used within ChatProvider");
   return context;
 };
+
 
 
