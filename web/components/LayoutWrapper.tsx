@@ -1,5 +1,4 @@
 "use client";
-
 interface LayoutWrapperProps {
   children: React.ReactNode;
 }
@@ -13,3 +12,4 @@ interface LayoutWrapperProps {
 export default function LayoutWrapper({ children }: LayoutWrapperProps) {
   return <>{children}</>;
 }
+
