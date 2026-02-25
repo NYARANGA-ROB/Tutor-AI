@@ -43,7 +43,6 @@ interface LogDrawerProps {
   count?: number;
   onClearLogs?: () => void;
 }
-
 export const LogDrawer: React.FC<LogDrawerProps> = ({
   isOpen,
   onClose,
@@ -386,6 +385,7 @@ export const LogDrawer: React.FC<LogDrawerProps> = ({
     </>
   );
 };
+
 
 
 
