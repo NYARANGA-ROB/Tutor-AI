@@ -26,7 +26,6 @@ interface SubFocus {
   focus: string;
   scenario_hint?: string;
 }
-
 interface LogDrawerProps {
   isOpen: boolean;
   onClose: () => void;
@@ -388,4 +387,5 @@ export const LogDrawer: React.FC<LogDrawerProps> = ({
     </>
   );
 };
+
 
