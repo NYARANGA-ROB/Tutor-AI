@@ -43,7 +43,6 @@ interface SolverSession {
   created_at: number;
   updated_at: number;
 }
-
 interface SolverSessionDetailProps {
   sessionId: string;
   onClose: () => void;
@@ -335,5 +334,6 @@ export default function SolverSessionDetail({
 
   return createPortal(modalContent, document.body);
 }
+
 
 
