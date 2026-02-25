@@ -2,7 +2,6 @@
  * Component Export Index
  * Unified management of all public component exports
  */
-
 // Layout Components
 export { default as Sidebar } from "./Sidebar";
 
@@ -14,3 +13,4 @@ export { default as LayoutWrapper } from "./LayoutWrapper";
 
 // Re-export types if needed
 export type {} from "./AddToNotebookModal";
+
