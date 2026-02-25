@@ -10,7 +10,6 @@ interface FolderSyncManagerProps {
   onFolderUnlinked?: () => void;
   onSyncComplete?: () => void;
 }
-
 interface FolderInfo {
   id: string;
   path: string;
@@ -172,5 +171,6 @@ export default function FolderSyncManager({
     </>
   );
 }
+
 
 
