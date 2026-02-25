@@ -19,7 +19,6 @@ interface NotebookOption {
   color: string;
   record_count: number;
 }
-
 interface AddToNotebookModalProps {
   isOpen: boolean;
   onClose: () => void;
@@ -381,4 +380,5 @@ export default function AddToNotebookModal({
     </div>
   );
 }
+
 
