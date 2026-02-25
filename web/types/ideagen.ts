@@ -1,5 +1,4 @@
 // IdeaGen-specific types
-
 /**
  * Research idea item
  */
@@ -33,4 +32,5 @@ export const INITIAL_IDEAGEN_STATE: IdeaGenState = {
   generatedIdeas: [],
   progress: null,
 };
+
 
