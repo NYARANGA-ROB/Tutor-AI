@@ -20,7 +20,6 @@ import { apiUrl, API_BASE_URL } from "@/lib/api";
 import { processLatexContent } from "@/lib/latex";
 import { useGlobal } from "@/context/GlobalContext";
 import { useTranslation } from "react-i18next";
-
 interface SolverMessage {
   role: "user" | "assistant";
   content: string;
@@ -336,4 +335,5 @@ export default function SolverSessionDetail({
 
   return createPortal(modalContent, document.body);
 }
+
 
