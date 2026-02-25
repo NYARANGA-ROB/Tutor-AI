@@ -1,5 +1,4 @@
 // Chat-specific types for home page chat
-
 /**
  * Source references for chat messages
  */
@@ -45,6 +44,7 @@ export const INITIAL_CHAT_STATE: ChatState = {
   enableWebSearch: false,
   currentStage: null,
 };
+
 
 
 
