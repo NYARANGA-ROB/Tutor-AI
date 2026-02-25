@@ -1,5 +1,4 @@
 "use client";
-
 import React, { useEffect, useRef, useState } from "react";
 import mermaid from "mermaid";
 import { useTranslation } from "react-i18next";
@@ -93,3 +92,4 @@ export const Mermaid: React.FC<MermaidProps> = ({ chart, className = "" }) => {
 };
 
 export default Mermaid;
+
