@@ -18,7 +18,6 @@ interface ChatContextType {
   loadChatSession: (sessionId: string) => Promise<void>;
   newChatSession: () => void;
 }
-
 const ChatContext = createContext<ChatContextType | undefined>(undefined);
 
 export function ChatProvider({ children }: { children: React.ReactNode }) {
@@ -264,4 +263,5 @@ export const useChat = () => {
   if (!context) throw new Error("useChat must be used within ChatProvider");
   return context;
 };
+
 
