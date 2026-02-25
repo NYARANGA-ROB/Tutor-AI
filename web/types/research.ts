@@ -20,7 +20,6 @@ export interface ToolTrace {
   raw_answer_truncated?: boolean;
   raw_answer_original_size?: number;
 }
-
 export interface ThoughtEntry {
   type: "sufficiency" | "plan" | "tool_call" | "note" | "error";
   content: string;
@@ -259,6 +258,7 @@ export const INITIAL_RESEARCH_CONTEXT_STATE: ResearchContextState = {
     citations: undefined,
   },
 };
+
 
 
 
