@@ -42,7 +42,6 @@ const COLORS = [
   "#06B6D4",
   "#6366F1",
 ];
-
 export default function AddToNotebookModal({
   isOpen,
   onClose,
@@ -380,5 +379,6 @@ export default function AddToNotebookModal({
     </div>
   );
 }
+
 
 
