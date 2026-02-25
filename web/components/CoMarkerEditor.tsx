@@ -1,5 +1,4 @@
 "use client";
-
 import React, { useState, useRef, useEffect, useCallback } from "react";
 import { useTranslation } from "react-i18next";
 import {
@@ -2127,3 +2126,4 @@ export default function CoWriterEditor({
     </div>
   );
 }
+
