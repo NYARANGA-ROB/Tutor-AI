@@ -9,7 +9,6 @@ import remarkMath from "remark-math";
 import rehypeKatex from "rehype-katex";
 import "katex/dist/katex.min.css";
 import { processLatexContent } from "@/lib/latex";
-
 // Hook to safely detect client-side rendering
 const emptySubscribe = () => () => {};
 function useIsClient() {
@@ -277,4 +276,5 @@ export default function ActivityDetail({
 
   return createPortal(modalContent, document.body);
 }
+
 
