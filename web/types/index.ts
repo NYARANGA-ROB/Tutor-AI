@@ -1,6 +1,5 @@
 // Type exports - central export point for all types
 
-
 // Common types
 export * from "./common";
 
@@ -11,4 +10,5 @@ export * from "./research";
 export * from "./chat";
 export * from "./sidebar";
 export * from "./ideagen";
+
 
