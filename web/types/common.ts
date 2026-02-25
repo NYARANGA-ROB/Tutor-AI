@@ -1,5 +1,4 @@
 // Shared types used across multiple contexts
-
 /**
  * Generic log entry used by Solver, Question, Research contexts
  */
@@ -48,5 +47,6 @@ export interface UISettings {
   theme: Theme;
   language: Language;
 }
+
 
 
