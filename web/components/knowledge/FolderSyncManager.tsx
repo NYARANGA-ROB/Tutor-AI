@@ -1,5 +1,4 @@
 "use client";
-
 import { useState } from "react";
 import { Loader2, FolderOpen, Link as LinkIcon, X } from "lucide-react";
 import { apiUrl } from "@/lib/api";
@@ -174,3 +173,4 @@ export default function FolderSyncManager({
     </>
   );
 }
+
