@@ -44,7 +44,6 @@ const steps: { id: ProcessTab; labelKey: string; icon: React.ElementType }[] = [
   { id: "researching", labelKey: "Researching", icon: Zap },
   { id: "reporting", labelKey: "Reporting", icon: PenTool },
 ];
-
 const stageOrder: Record<string, number> = {
   idle: -1,
   planning: 0,
@@ -876,4 +875,5 @@ export const ResearchDashboard: React.FC<ResearchDashboardProps> = ({
     </div>
   );
 };
+
 
