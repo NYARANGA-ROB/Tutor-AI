@@ -1,5 +1,4 @@
 "use client";
-
 import { useState, useEffect } from "react";
 import {
   X,
@@ -382,3 +381,4 @@ export default function AddToNotebookModal({
     </div>
   );
 }
+
