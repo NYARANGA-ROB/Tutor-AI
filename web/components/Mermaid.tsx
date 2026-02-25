@@ -26,7 +26,6 @@ mermaid.initialize({
     tertiaryColor: "#f8fafc",
   },
 });
-
 let mermaidIdCounter = 0;
 
 export const Mermaid: React.FC<MermaidProps> = ({ chart, className = "" }) => {
@@ -90,6 +89,7 @@ export const Mermaid: React.FC<MermaidProps> = ({ chart, className = "" }) => {
 };
 
 export default Mermaid;
+
 
 
 
