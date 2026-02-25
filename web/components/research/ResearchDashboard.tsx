@@ -85,7 +85,6 @@ export const ResearchDashboard: React.FC<ResearchDashboardProps> = ({
   const [userSelectedTab, setUserSelectedTab] = useState<ProcessTab | null>(
     null,
   );
-
   // Compute derived tab based on current stage
   const derivedProcessTab: ProcessTab =
     global.stage === "planning" ||
@@ -877,3 +876,4 @@ export const ResearchDashboard: React.FC<ResearchDashboardProps> = ({
     </div>
   );
 };
+
