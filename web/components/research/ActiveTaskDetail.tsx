@@ -16,7 +16,6 @@ import ReactMarkdown from "react-markdown";
 interface ActiveTaskDetailProps {
   task: TaskState | null;
 }
-
 const getThoughtIcon = (type: ThoughtEntry["type"]) => {
   switch (type) {
     case "sufficiency":
@@ -185,3 +184,4 @@ export const ActiveTaskDetail: React.FC<ActiveTaskDetailProps> = ({ task }) => {
     </div>
   );
 };
+
