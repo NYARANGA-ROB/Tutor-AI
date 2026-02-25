@@ -14,7 +14,6 @@ import {
 } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { apiUrl } from "@/lib/api";
-
 interface SystemStatusData {
   backend: {
     status: string;
@@ -438,4 +437,5 @@ export default function SystemStatus() {
     </div>
   );
 }
+
 
