@@ -49,7 +49,6 @@ const stageOrder: Record<string, number> = {
   reporting: 2,
   completed: 3,
 };
-
 interface ResearchDashboardProps {
   state: ResearchState;
   selectedTaskId: string | null;
@@ -873,6 +872,7 @@ export const ResearchDashboard: React.FC<ResearchDashboardProps> = ({
     </div>
   );
 };
+
 
 
 
