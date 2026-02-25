@@ -10,7 +10,6 @@ interface MarkdownRendererProps {
   className?: string;
   variant?: "default" | "compact" | "prose";
 }
-
 /**
  * Shared MarkdownRenderer component with KaTeX support and consistent table styling
  */
@@ -121,5 +120,6 @@ export default function MarkdownRenderer({
     </div>
   );
 }
+
 
 
