@@ -1,6 +1,5 @@
 import fs from "node:fs";
 import path from "node:path";
-
 function listCodeFiles(dir) {
   const out = [];
   for (const ent of fs.readdirSync(dir, { withFileTypes: true })) {
@@ -124,5 +123,6 @@ if (!showAll && allFindings.length > 80)
 
 if (strict) process.exit(1);
 process.exit(0);
+
 
 
