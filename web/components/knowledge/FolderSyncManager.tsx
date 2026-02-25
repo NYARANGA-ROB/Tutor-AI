@@ -3,7 +3,6 @@ import { useState } from "react";
 import { Loader2, FolderOpen, Link as LinkIcon, X } from "lucide-react";
 import { apiUrl } from "@/lib/api";
 import { useTranslation } from "react-i18next";
-
 interface FolderSyncManagerProps {
   kbName: string;
   showToast: (message: string, type: "success" | "error" | "info") => void;
@@ -173,4 +172,5 @@ export default function FolderSyncManager({
     </>
   );
 }
+
 
