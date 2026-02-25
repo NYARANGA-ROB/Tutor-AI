@@ -2,7 +2,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import mermaid from "mermaid";
 import { useTranslation } from "react-i18next";
-
 interface MermaidProps {
   chart: string;
   className?: string;
@@ -91,5 +90,6 @@ export const Mermaid: React.FC<MermaidProps> = ({ chart, className = "" }) => {
 };
 
 export default Mermaid;
+
 
 
