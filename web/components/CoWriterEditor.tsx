@@ -63,7 +63,6 @@ import { debounce } from "@/lib/debounce";
 interface CoWriterEditorProps {
   initialValue?: string;
 }
-
 // AI Mark tag regex patterns
 const AI_MARK_REGEX = /<span\s+data-rough-notation="[^"]+">([^<]*)<\/span>/g;
 const AI_MARK_OPEN_TAG = /<span\s+data-rough-notation="[^"]+">/g;
@@ -2183,4 +2182,5 @@ export default function CoWriterEditor({
     </div>
   );
 }
+
 
