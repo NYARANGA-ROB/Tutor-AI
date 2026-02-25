@@ -53,7 +53,6 @@ import rehypeKatex from "rehype-katex";
 import rehypeRaw from "rehype-raw";
 import "katex/dist/katex.min.css";
 import { processLatexContent } from "@/lib/latex";
-
 interface CoWriterEditorProps {
   initialValue?: string;
 }
@@ -2126,4 +2125,5 @@ export default function CoWriterEditor({
     </div>
   );
 }
+
 
