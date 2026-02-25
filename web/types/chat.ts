@@ -8,7 +8,6 @@ export interface ChatSource {
   web?: Array<{ url: string; title?: string; snippet?: string }>;
 }
 
-
 /**
  * Chat message with sources and streaming state
  */
@@ -46,6 +45,7 @@ export const INITIAL_CHAT_STATE: ChatState = {
   enableWebSearch: false,
   currentStage: null,
 };
+
 
 
 
