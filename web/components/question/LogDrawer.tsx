@@ -20,7 +20,6 @@ interface LogEntry {
   timestamp?: number;
   level?: string;
 }
-
 interface SubFocus {
   id: string;
   focus: string;
@@ -387,5 +386,6 @@ export const LogDrawer: React.FC<LogDrawerProps> = ({
     </>
   );
 };
+
 
 
