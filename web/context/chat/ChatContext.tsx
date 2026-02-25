@@ -46,7 +46,6 @@ export function ChatProvider({ children }: { children: React.ReactNode }) {
       chatWs.current = ws;
 
       let assistantMessage = "";
-
       ws.onopen = () => {
         // Build history from current messages (excluding the one just added)
         const history = chatState.messages.map((msg) => ({
@@ -262,6 +261,7 @@ export const useChat = () => {
   if (!context) throw new Error("useChat must be used within ChatProvider");
   return context;
 };
+
 
 
 
