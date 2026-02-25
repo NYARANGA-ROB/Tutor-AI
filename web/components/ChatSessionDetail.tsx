@@ -43,7 +43,6 @@ interface ChatSession {
   created_at: number;
   updated_at: number;
 }
-
 interface ChatSessionDetailProps {
   sessionId: string;
   onClose: () => void;
@@ -300,4 +299,5 @@ export default function ChatSessionDetail({
 
   return createPortal(modalContent, document.body);
 }
+
 
