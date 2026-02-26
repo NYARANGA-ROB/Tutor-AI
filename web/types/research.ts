@@ -41,7 +41,6 @@ export interface TaskState {
   currentTool?: string;
   currentQuery?: string;
 }
-
 export interface OutlineSubsection {
   title: string;
   instruction: string;
@@ -258,6 +257,7 @@ export const INITIAL_RESEARCH_CONTEXT_STATE: ResearchContextState = {
     citations: undefined,
   },
 };
+
 
 
 
