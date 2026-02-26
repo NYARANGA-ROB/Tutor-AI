@@ -100,6 +100,7 @@ export default function MarkdownRenderer({
     ),
   };
 
+  
   const proseClasses =
     variant === "prose"
       ? "prose prose-slate dark:prose-invert prose-headings:font-bold prose-h1:text-2xl prose-h2:text-xl max-w-none"
@@ -120,6 +121,7 @@ export default function MarkdownRenderer({
     </div>
   );
 }
+
 
 
 
