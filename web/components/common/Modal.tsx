@@ -1,7 +1,6 @@
 "use client";
 import { useEffect, useCallback } from "react";
 import { X } from "lucide-react";
-
 interface ModalProps {
   isOpen: boolean;
   onClose: () => void;
@@ -102,4 +101,5 @@ export default function Modal({
     </div>
   );
 }
+
 
