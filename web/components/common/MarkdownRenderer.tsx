@@ -35,6 +35,7 @@ export default function MarkdownRenderer({
     thead: ({ node, ...props }: any) => (
       <thead className="bg-slate-50 dark:bg-slate-800" {...props} />
     ),
+    
     th: ({ node, ...props }: any) => (
       <th
         className={`text-left font-semibold text-slate-700 dark:text-slate-300 whitespace-nowrap border-b border-slate-200 dark:border-slate-700 ${
@@ -121,6 +122,7 @@ export default function MarkdownRenderer({
     </div>
   );
 }
+
 
 
 
