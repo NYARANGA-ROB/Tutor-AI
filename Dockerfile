@@ -12,7 +12,6 @@
 #   1. Copy .env.example to .env and configure your API keys
 #   2. Optionally customize config/main.yaml
 # ============================================
-
 # ============================================
 # Stage 1: Frontend Builder
 # ============================================
