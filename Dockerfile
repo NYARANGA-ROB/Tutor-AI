@@ -1,5 +1,6 @@
 # ============================================
 # DeepTutor Multi-Stage Dockerfile
+
 # ============================================
 # This Dockerfile builds a production-ready image for DeepTutor
 # containing both the FastAPI backend and Next.js frontend
