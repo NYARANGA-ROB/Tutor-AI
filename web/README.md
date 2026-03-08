@@ -88,7 +88,6 @@ The frontend will be available at `http://localhost:3782` (or port configured in
 npm run build
 npm start
 ```
-
 ## 📁 Key Components
 
 ### Dashboard (app/page.tsx)
