@@ -106,7 +106,6 @@ import { apiUrl } from "@/lib/api";
 
 // REST API
 const response = await fetch(`${apiUrl}/knowledge/list`);
-
 // WebSocket
 const ws = new WebSocket(`${wsUrl}/api/v1/solve`);
 ```
