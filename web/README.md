@@ -56,7 +56,6 @@ web/
 - **Animations**: Framer Motion 11
 
 ## 📦 Dependencies
-
 ### Core Dependencies
 
 ```json
