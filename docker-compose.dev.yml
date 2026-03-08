@@ -17,7 +17,6 @@ services:
       - ./src:/app/src:ro
       - ./config:/app/config:ro
       - ./scripts:/app/scripts:ro
-
       # Mount frontend source for hot-reload
       - ./web/app:/app/web/app:ro
       - ./web/components:/app/web/components:ro
