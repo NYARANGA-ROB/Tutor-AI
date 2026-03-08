@@ -11,7 +11,6 @@ The frontend provides:
 - Co-Writer interface
 - Notebook management
 - Idea generation interface
-
 ## 🏗️ Architecture
 
 ```
