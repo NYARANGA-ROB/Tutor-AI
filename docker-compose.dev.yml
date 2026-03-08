@@ -8,7 +8,6 @@
 #   - Source code mounting for live editing
 #   - Development-friendly logging
 # ============================================
-
 services:
   deeptutor:
     build:
