@@ -5,7 +5,6 @@ const nextConfig = {
   devIndicators: {
     position: "bottom-right",
   },
-
   // Transpile mermaid and related packages for proper ESM handling
   transpilePackages: ["mermaid"],
 
@@ -32,3 +31,4 @@ const nextConfig = {
 };
 
 module.exports = nextConfig;
+
