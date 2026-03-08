@@ -71,7 +71,6 @@ web/
   "html2canvas": "^1.4.1"
 }
 ```
-
 ## 🚀 Getting Started
 ### Installation
 ```bash
