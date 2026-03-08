@@ -89,7 +89,6 @@ npm run build
 npm start
 ```
 ## 📁 Key Components
-
 ### Dashboard (app/page.tsx)
 
 Main dashboard showing:
