@@ -245,7 +245,6 @@ Global styles in `app/globals.css` including:
 - View generated ideas
 
 ## ⚙️ Configuration
-
 ### API Base URL
 
 Configured in `lib/api.ts`:
