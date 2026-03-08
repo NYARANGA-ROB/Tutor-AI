@@ -73,7 +73,6 @@ web/
 ```
 
 ## 🚀 Getting Started
-
 ### Installation
 
 ```bash
