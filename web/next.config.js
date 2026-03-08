@@ -14,7 +14,6 @@ const nextConfig = {
       cytoscape: "cytoscape/dist/cytoscape.cjs.js",
     },
   },
-
   // Webpack configuration (used for production builds - next build)
   webpack: (config) => {
     const path = require("path");
@@ -30,5 +29,6 @@ const nextConfig = {
 };
 
 module.exports = nextConfig;
+
 
 
