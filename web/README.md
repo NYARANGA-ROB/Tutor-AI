@@ -78,7 +78,6 @@ cd web
 npm install
 ```
 ### Development
-
 ```bash
 npm run dev
 ```
