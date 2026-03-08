@@ -7,7 +7,6 @@ const nextConfig = {
   },
   // Transpile mermaid and related packages for proper ESM handling
   transpilePackages: ["mermaid"],
-
   // Turbopack configuration (Next.js 16+ uses Turbopack by default for dev)
   turbopack: {
     resolveAlias: {
@@ -31,4 +30,5 @@ const nextConfig = {
 };
 
 module.exports = nextConfig;
+
 
