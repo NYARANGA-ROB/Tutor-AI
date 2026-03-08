@@ -12,7 +12,6 @@ The frontend provides:
 - Notebook management
 - Idea generation interface
 ## 🏗️ Architecture
-
 ```
 web/
 ├── app/                      # Next.js app directory
