@@ -2,7 +2,7 @@
 # DeepTutor Docker Compose - Development Override
 # ============================================
 # Use with: docker compose -f docker-compose.yml -f docker-compose.dev.yml up
-#
+
 # This override file provides:
 #   - Hot-reload for both frontend and backend
 #   - Source code mounting for live editing
