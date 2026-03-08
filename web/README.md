@@ -98,7 +98,6 @@ Main dashboard showing:
 - Quick access to modules
 
 ### API Client (lib/api.ts)
-
 Centralized API client for backend communication:
 
 ```typescript
