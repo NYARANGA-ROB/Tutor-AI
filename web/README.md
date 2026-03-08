@@ -90,7 +90,6 @@ npm start
 ```
 ## 📁 Key Components
 ### Dashboard (app/page.tsx)
-
 Main dashboard showing:
 - Recent activities
 - Knowledge base overview
