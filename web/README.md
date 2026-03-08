@@ -164,7 +164,6 @@ ws.onclose = () => {
   console.log("WebSocket closed");
 };
 ```
-
 ## 🎨 Styling
 
 ### Tailwind CSS
