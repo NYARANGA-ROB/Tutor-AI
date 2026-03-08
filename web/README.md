@@ -45,7 +45,6 @@ web/
 ├── tailwind.config.js        # Tailwind CSS configuration
 └── postcss.config.js         # PostCSS configuration
 ```
-
 ## 🛠️ Technology Stack
 
 - **Framework**: Next.js 16 (App Router + Turbopack)
