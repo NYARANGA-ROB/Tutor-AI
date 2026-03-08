@@ -25,7 +25,6 @@ services:
       - ./web/context:/app/web/context:ro
       - ./web/types:/app/web/types:ro
       - ./web/public:/app/web/public:ro
-
       # Mount data directories (writable) - output to local ./data
       - ./data/user:/app/data/user
       - ./data/knowledge_bases:/app/data/knowledge_bases
