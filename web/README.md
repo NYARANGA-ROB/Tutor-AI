@@ -1,6 +1,5 @@
 # Web Frontend
 The Web frontend is a Next.js 16 application that provides the user interface for the DeepTutor system.
-
 ## 📋 Overview
 
 The frontend provides:
