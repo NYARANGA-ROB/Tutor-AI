@@ -46,7 +46,6 @@ web/
 └── postcss.config.js         # PostCSS configuration
 ```
 ## 🛠️ Technology Stack
-
 - **Framework**: Next.js 16 (App Router + Turbopack)
 - **Runtime**: React 19
 - **Language**: TypeScript
