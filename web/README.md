@@ -57,7 +57,6 @@ web/
 
 ## 📦 Dependencies
 ### Core Dependencies
-
 ```json
 {
   "next": "^16.1.1",
