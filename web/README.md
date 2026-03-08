@@ -82,7 +82,6 @@ npm install
 npm run dev
 ```
 This uses **Turbopack** by default for faster development builds.
-
 The frontend will be available at `http://localhost:3782` (or port configured in `config/main.yaml`).
 
 ### Build
