@@ -92,7 +92,6 @@ npm start
 ### Dashboard (app/page.tsx)
 
 Main dashboard showing:
-
 - Recent activities
 - Knowledge base overview
 - Notebook statistics
