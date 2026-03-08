@@ -77,7 +77,6 @@ web/
 cd web
 npm install
 ```
-
 ### Development
 
 ```bash
