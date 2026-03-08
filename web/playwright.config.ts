@@ -7,6 +7,7 @@ const SERIAL_MODE = process.env.PW_SERIAL === "1";
 export default defineConfig({
   testDir: "./tests",
   fullyParallel: !SERIAL_MODE,
+  
   forbidOnly: !!process.env.CI,
   retries: process.env.CI ? 2 : 0,
   workers: SERIAL_MODE ? 1 : undefined,
@@ -23,5 +24,6 @@ export default defineConfig({
     },
   ],
 });
+
 
 
