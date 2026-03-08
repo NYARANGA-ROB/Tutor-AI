@@ -74,7 +74,6 @@ web/
 
 ## 🚀 Getting Started
 ### Installation
-
 ```bash
 cd web
 npm install
