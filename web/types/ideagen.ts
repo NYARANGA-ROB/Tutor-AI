@@ -20,7 +20,6 @@ export interface IdeaGenState {
   generatedIdeas: ResearchIdea[];
   progress: { current: number; total: number } | null;
 }
-
 /**
  * Initial IdeaGen state
  */
@@ -30,6 +29,7 @@ export const INITIAL_IDEAGEN_STATE: IdeaGenState = {
   generatedIdeas: [],
   progress: null,
 };
+
 
 
 
