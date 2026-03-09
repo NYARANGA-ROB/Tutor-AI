@@ -9,7 +9,6 @@ export interface SolverChatMessage {
   content: string;
   outputDir?: string;
 }
-
 /**
  * Solver progress information
  */
@@ -79,4 +78,5 @@ export const INITIAL_SOLVER_STATE: SolverState = {
     progress: {},
   },
 };
+
 
