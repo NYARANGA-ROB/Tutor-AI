@@ -4,7 +4,6 @@
  * NOTE: We start with "warn" in eslint.config.mjs during migration.
  * After migration, switch to "error" for hard enforcement.
  */
-
 const UI_ATTRS = new Set(["title", "placeholder", "alt", "aria-label"]);
 
 function hasHumanText(s) {
@@ -55,3 +54,4 @@ export default {
     },
   },
 };
+
