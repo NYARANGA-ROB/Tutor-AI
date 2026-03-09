@@ -39,7 +39,6 @@ test.describe("Compliance :: Accessibility & Semantics", () => {
       0,
     );
   });
-
   test("links have accessible names (text/aria-label/title)", async ({
     page,
   }) => {
@@ -92,6 +91,7 @@ test.describe("Compliance :: Error Handling & UX Signals", () => {
     );
   });
 });
+
 
 
 
