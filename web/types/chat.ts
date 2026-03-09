@@ -28,7 +28,6 @@ export interface ChatState {
   currentStage: string | null;
 }
 /**
-
  * Initial chat state
  */
 export const INITIAL_CHAT_STATE: ChatState = {
@@ -40,6 +39,7 @@ export const INITIAL_CHAT_STATE: ChatState = {
   enableWebSearch: false,
   currentStage: null,
 };
+
 
 
 
