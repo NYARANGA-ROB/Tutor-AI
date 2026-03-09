@@ -58,7 +58,6 @@ test.describe("Compliance :: Accessibility & Semantics", () => {
       `Found ${namelessLinks} <a> without accessible name`,
     ).toBe(0);
   });
-
   test("viewport meta present for responsive UX", async ({ page }) => {
     await page.goto(`${BASE_URL}/`);
     const hasViewport = await page.$('meta[name="viewport"]');
@@ -91,6 +90,7 @@ test.describe("Compliance :: Error Handling & UX Signals", () => {
     );
   });
 });
+
 
 
 
