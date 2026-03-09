@@ -67,7 +67,6 @@ function auditFile(content) {
   }
   return findings;
 }
-
 const webRoot = path.resolve(process.cwd());
 const targets = [path.join(webRoot, "app"), path.join(webRoot, "components")].filter((p) =>
   fs.existsSync(p),
@@ -115,6 +114,7 @@ if (!showAll && allFindings.length > 80)
 
 if (strict) process.exit(1);
 process.exit(0);
+
 
 
 
