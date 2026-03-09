@@ -10,7 +10,6 @@ function listCodeFiles(dir) {
   }
   return out;
 }
-
 function toRel(p, root) {
   return path.relative(root, p).replaceAll("\\", "/");
 }
@@ -123,6 +122,7 @@ if (!showAll && allFindings.length > 80)
 
 if (strict) process.exit(1);
 process.exit(0);
+
 
 
 
