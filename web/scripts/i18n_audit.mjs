@@ -60,7 +60,6 @@ function auditFile(content) {
     if (!hasUiText(text)) continue;
     findings.push({ kind: `attr:${attr}`, text });
   }
-
   // alert/confirm with literal strings
   const alertRe = /\b(alert|confirm)\(\s*"([^"]+)"\s*\)/g;
   for (const m of content.matchAll(alertRe)) {
@@ -118,6 +117,7 @@ if (!showAll && allFindings.length > 80)
 
 if (strict) process.exit(1);
 process.exit(0);
+
 
 
 
