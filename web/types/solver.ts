@@ -1,6 +1,5 @@
 // Solver-specific types
 import { LogEntry, AgentStatus, TokenStats } from "./common";
-
 /**
  * Chat message in solver conversation
  */
@@ -78,5 +77,6 @@ export const INITIAL_SOLVER_STATE: SolverState = {
     progress: {},
   },
 };
+
 
 
