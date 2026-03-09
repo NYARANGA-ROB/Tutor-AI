@@ -22,7 +22,6 @@ test.describe("Compliance :: Accessibility & Semantics", () => {
     await page.waitForSelector("main", { timeout: 5000 });
     const main = page.locator("main");
     await expect(main, "Missing <main> landmark").toBeVisible();
-
     const h1 = page.locator("h1").first();
     await expect(h1, "Missing top-level <h1>").toBeVisible();
   });
@@ -94,6 +93,7 @@ test.describe("Compliance :: Error Handling & UX Signals", () => {
     );
   });
 });
+
 
 
 
