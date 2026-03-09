@@ -26,7 +26,6 @@ export interface ThoughtEntry {
   metadata?: Record<string, any>;
   timestamp: number;
 }
-
 export interface TaskState {
   id: string;
   topic: string;
@@ -257,6 +256,7 @@ export const INITIAL_RESEARCH_CONTEXT_STATE: ResearchContextState = {
     citations: undefined,
   },
 };
+
 
 
 
