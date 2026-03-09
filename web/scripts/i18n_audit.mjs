@@ -49,7 +49,6 @@ function auditFile(content) {
     if (text.length <= 1) continue;
     findings.push({ kind: "jsxText", text });
   }
-
   // Attributes with literal string values
   const attrRe =
     /\b(title|placeholder|alt|aria-label)\s*=\s*"([^"]+)"/g;
@@ -119,6 +118,7 @@ if (!showAll && allFindings.length > 80)
 
 if (strict) process.exit(1);
 process.exit(0);
+
 
 
 
