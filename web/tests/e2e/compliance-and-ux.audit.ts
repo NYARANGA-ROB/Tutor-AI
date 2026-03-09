@@ -5,7 +5,6 @@ const BASE_URL =
   process.env.WEB_BASE_URL ||
   process.env.NEXT_PUBLIC_API_BASE ||
   "http://localhost:3000";
-
 async function expectAnyVisible(
   locators: import("@playwright/test").Locator[],
   message: string,
@@ -95,6 +94,7 @@ test.describe("Compliance :: Error Handling & UX Signals", () => {
     );
   });
 });
+
 
 
 
