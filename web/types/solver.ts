@@ -47,7 +47,6 @@ export const DEFAULT_SOLVER_AGENT_STATUS: AgentStatus = {
   ResponseAgent: "pending",
   PrecisionAnswerAgent: "pending",
 };
-
 /**
  * Default token stats
  */
@@ -76,6 +75,7 @@ export const INITIAL_SOLVER_STATE: SolverState = {
     progress: {},
   },
 };
+
 
 
 
