@@ -1,6 +1,5 @@
 import nextConfig from "eslint-config-next";
 import i18nPlugin from "./eslint/i18n-plugin.mjs";
-
 const config = [
   ...nextConfig,
   {
@@ -18,6 +17,7 @@ const config = [
   },
 ];
 export default config;
+
 
 
 
