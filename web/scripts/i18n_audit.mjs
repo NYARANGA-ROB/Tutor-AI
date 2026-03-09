@@ -17,7 +17,6 @@ function hasUiText(s) {
   // Very rough heuristic: letters / CJK / common punctuation sequences
   return /[A-Za-z\u4e00-\u9fff]/.test(s);
 }
-
 function auditFile(content) {
   const findings = [];
 
@@ -121,6 +120,7 @@ if (!showAll && allFindings.length > 80)
 
 if (strict) process.exit(1);
 process.exit(0);
+
 
 
 
