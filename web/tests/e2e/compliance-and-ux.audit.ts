@@ -25,7 +25,6 @@ test.describe("Compliance :: Accessibility & Semantics", () => {
     const h1 = page.locator("h1").first();
     await expect(h1, "Missing top-level <h1>").toBeVisible();
   });
-
   test("images provide alt text", async ({ page }) => {
     await page.goto(`${BASE_URL}/`);
     const missingAltCount = await page.$$eval(
@@ -93,6 +92,7 @@ test.describe("Compliance :: Error Handling & UX Signals", () => {
     );
   });
 });
+
 
 
 
