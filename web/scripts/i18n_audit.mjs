@@ -95,7 +95,6 @@ for (const dir of targets) {
     }
   }
 }
-
 if (!allFindings.length) {
   console.log("[i18n:audit] OK (no obvious UI literals found)");
   process.exit(0);
@@ -117,6 +116,7 @@ if (!showAll && allFindings.length > 80)
 
 if (strict) process.exit(1);
 process.exit(0);
+
 
 
 
