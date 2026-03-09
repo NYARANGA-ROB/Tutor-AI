@@ -65,7 +65,6 @@ function auditFile(content) {
   for (const m of content.matchAll(alertRe)) {
     findings.push({ kind: `${m[1]}()`, text: m[2] });
   }
-
   return findings;
 }
 
@@ -116,6 +115,7 @@ if (!showAll && allFindings.length > 80)
 
 if (strict) process.exit(1);
 process.exit(0);
+
 
 
 
