@@ -71,7 +71,6 @@ const webRoot = path.resolve(process.cwd());
 const targets = [path.join(webRoot, "app"), path.join(webRoot, "components")].filter((p) =>
   fs.existsSync(p),
 );
-
 const strict = process.argv.includes("--strict");
 const fileFilterIdx = process.argv.indexOf("--file");
 const fileFilter =
@@ -114,6 +113,7 @@ if (!showAll && allFindings.length > 80)
 
 if (strict) process.exit(1);
 process.exit(0);
+
 
 
 
