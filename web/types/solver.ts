@@ -34,7 +34,6 @@ export interface SolverState {
   tokenStats: TokenStats;
   progress: SolverProgressInfo;
 }
-
 /**
  * Default agent status for solver
  */
@@ -75,6 +74,7 @@ export const INITIAL_SOLVER_STATE: SolverState = {
     progress: {},
   },
 };
+
 
 
 
