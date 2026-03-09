@@ -76,7 +76,6 @@ const fileFilterIdx = process.argv.indexOf("--file");
 const fileFilter =
   fileFilterIdx >= 0 ? String(process.argv[fileFilterIdx + 1] || "").trim() : "";
 const showAll = process.argv.includes("--show-all");
-
 const allFindings = [];
 for (const dir of targets) {
   const files = listCodeFiles(dir);
@@ -113,6 +112,7 @@ if (!showAll && allFindings.length > 80)
 
 if (strict) process.exit(1);
 process.exit(0);
+
 
 
 
