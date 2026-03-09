@@ -95,7 +95,6 @@ if (!allFindings.length) {
   console.log("[i18n:audit] OK (no obvious UI literals found)");
   process.exit(0);
 }
-
 console.log(`[i18n:audit] Found ${allFindings.length} files with potential UI literals`);
 const fileLimit = showAll ? allFindings.length : 80;
 for (const item of allFindings.slice(0, fileLimit)) {
@@ -112,6 +111,7 @@ if (!showAll && allFindings.length > 80)
 
 if (strict) process.exit(1);
 process.exit(0);
+
 
 
 
