@@ -9,7 +9,6 @@ import { UISettingsProvider, SidebarProvider } from "./settings";
 import { IdeaGenProvider } from "./ideagen";
 
 
-
 /**
  * CompositeProvider combines all context providers into a single component.
  * This simplifies the provider hierarchy in the app layout.
@@ -34,6 +33,7 @@ export function CompositeProvider({ children }: { children: React.ReactNode }) {
   );
   
 }
+
 
 
 
