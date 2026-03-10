@@ -8,7 +8,6 @@ const UI_ATTRS = new Set(["title", "placeholder", "alt", "aria-label"]);
 function hasHumanText(s) {
   return /[A-Za-z\u4e00-\u9fff]/.test(s);
 }
-
 export default {
   rules: {
     "no-literal-ui-text": {
@@ -53,5 +52,6 @@ export default {
     },
   },
 };
+
 
 
