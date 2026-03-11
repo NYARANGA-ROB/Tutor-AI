@@ -3,7 +3,6 @@
  */
 // Composite provider for app layout
 export { CompositeProvider } from "./CompositeProvider";
-
 // Individual context hooks
 export { useSolver, SolverProvider } from "./solver";
 export { useQuestion, QuestionProvider } from "./question";
@@ -18,5 +17,6 @@ export type { SidebarNavOrder } from "./settings";
 // Legacy compatibility - useGlobal hook that combines all contexts
 // This allows gradual migration without breaking existing code
 export { useGlobal, GlobalProvider } from "./GlobalContext";
+
 
 
