@@ -37,7 +37,6 @@ function getInitialCollapsed(): boolean {
   if (typeof window === "undefined") return false;
   return localStorage.getItem("sidebarCollapsed") === "true";
 }
-
 // Context type
 interface SidebarContextType {
   // Sidebar dimensions
@@ -175,5 +174,6 @@ export const useSidebar = () => {
 
 // Re-export the SidebarNavOrder type for convenience
 export type { SidebarNavOrder };
+
 
 
