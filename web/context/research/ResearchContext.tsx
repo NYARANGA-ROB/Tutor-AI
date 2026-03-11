@@ -38,7 +38,6 @@ export function ResearchProvider({ children }: { children: React.ReactNode }) {
   const addResearchLog = useCallback((log: LogEntry) => {
     setResearchState((prev) => ({ ...prev, logs: [...prev.logs, log] }));
   }, []);
-
   const startResearch = useCallback(
     (
       topic: string,
@@ -222,6 +221,7 @@ export const useResearch = () => {
     throw new Error("useResearch must be used within ResearchProvider");
   return context;
 };
+
 
 
 
