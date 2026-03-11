@@ -100,7 +100,6 @@ interface QuestionProgressInfo {
   failedQuestions?: number;
   extendedQuestions?: number; // Count of extended questions
 }
-
 // Question Agent Status
 interface QuestionAgentStatus {
   [key: string]: "pending" | "running" | "done" | "error";
@@ -2167,6 +2166,7 @@ export const useGlobal = () => {
   if (!context) throw new Error("useGlobal must be used within GlobalProvider");
   return context;
 };
+
 
 
 
