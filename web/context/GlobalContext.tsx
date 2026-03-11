@@ -37,7 +37,6 @@ interface ChatMessage {
   content: string;
   outputDir?: string;
 }
-
 // Agent Status
 interface AgentStatus {
   [key: string]: "pending" | "running" | "done" | "error";
@@ -2172,6 +2171,7 @@ export const useGlobal = () => {
   if (!context) throw new Error("useGlobal must be used within GlobalProvider");
   return context;
 };
+
 
 
 
