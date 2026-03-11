@@ -1,7 +1,6 @@
 /**
  * Context exports - central export point for all contexts
  */
-
 // Composite provider for app layout
 export { CompositeProvider } from "./CompositeProvider";
 
@@ -20,3 +19,4 @@ export type { SidebarNavOrder } from "./settings";
 // Legacy compatibility - useGlobal hook that combines all contexts
 // This allows gradual migration without breaking existing code
 export { useGlobal, GlobalProvider } from "./GlobalContext";
+
