@@ -95,7 +95,6 @@ export function ResearchProvider({ children }: { children: React.ReactNode }) {
           content: `Starting Research Pipeline (Plan: ${planMode}, Tools: ${enabledTools.join("+")}, Optimization: ${!skipRephrase ? "On" : "Off/Pre-done"})...`,
         });
       };
-
       ws.onmessage = (event) => {
         const data = JSON.parse(event.data);
         if (data.type === "log") {
@@ -218,6 +217,7 @@ export const useResearch = () => {
     throw new Error("useResearch must be used within ResearchProvider");
   return context;
 };
+
 
 
 
