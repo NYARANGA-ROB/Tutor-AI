@@ -169,7 +169,6 @@ export function QuestionProvider({ children }: { children: React.ReactNode }) {
           }));
           break;
         }
-
         case "summary":
           addQuestionLog({
             type: "success",
@@ -643,6 +642,7 @@ export const useQuestion = () => {
     throw new Error("useQuestion must be used within QuestionProvider");
   return context;
 };
+
 
 
 
