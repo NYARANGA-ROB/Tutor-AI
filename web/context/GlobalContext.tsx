@@ -144,7 +144,6 @@ interface ActiveTaskInfo {
   current_query?: string;
   tools_used?: string[];
 }
-
 // Query Info (for tracking all queries)
 interface QueryInfo {
   query: string;
@@ -2163,6 +2162,7 @@ export const useGlobal = () => {
   if (!context) throw new Error("useGlobal must be used within GlobalProvider");
   return context;
 };
+
 
 
 
