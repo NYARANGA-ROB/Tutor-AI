@@ -23,7 +23,6 @@ import {
   EXCLUDE_FIELDS,
 } from "@/lib/persistence";
 import { debounce } from "@/lib/debounce";
-
 // Language storage key
 const LANGUAGE_STORAGE_KEY = "schoolmate-language";
 
@@ -2175,4 +2174,5 @@ export const useGlobal = () => {
   if (!context) throw new Error("useGlobal must be used within GlobalProvider");
   return context;
 };
+
 
