@@ -27,7 +27,6 @@ interface ResearchContextType {
     skipRephrase?: boolean,
   ) => void;
 }
-
 const ResearchContext = createContext<ResearchContextType | undefined>(
   undefined,
 );
@@ -225,5 +224,6 @@ export const useResearch = () => {
     throw new Error("useResearch must be used within ResearchProvider");
   return context;
 };
+
 
 
