@@ -34,7 +34,6 @@ interface QuestionContextType {
   ) => void;
   resetQuestionGen: () => void;
 }
-
 const QuestionContext = createContext<QuestionContextType | undefined>(
   undefined,
 );
@@ -652,6 +651,7 @@ export const useQuestion = () => {
     throw new Error("useQuestion must be used within QuestionProvider");
   return context;
 };
+
 
 
 
