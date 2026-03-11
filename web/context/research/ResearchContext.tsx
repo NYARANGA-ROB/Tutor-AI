@@ -30,7 +30,6 @@ interface ResearchContextType {
 const ResearchContext = createContext<ResearchContextType | undefined>(
   undefined,
 );
-
 export function ResearchProvider({ children }: { children: React.ReactNode }) {
   const [researchState, setResearchState] = useState<ResearchContextState>(
     INITIAL_RESEARCH_CONTEXT_STATE,
@@ -224,6 +223,7 @@ export const useResearch = () => {
     throw new Error("useResearch must be used within ResearchProvider");
   return context;
 };
+
 
 
 
