@@ -59,7 +59,6 @@ export function QuestionProvider({ children }: { children: React.ReactNode }) {
         case "log":
           addQuestionLog(data);
           break;
-
         case "status": {
           const mappedStage = stageMap[data.stage] || data.stage;
           addQuestionLog({
@@ -648,6 +647,7 @@ export const useQuestion = () => {
     throw new Error("useQuestion must be used within QuestionProvider");
   return context;
 };
+
 
 
 
