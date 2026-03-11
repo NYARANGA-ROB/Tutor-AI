@@ -152,7 +152,6 @@ interface QueryInfo {
   rationale?: string;
   iteration: number;
 }
-
 // Research Progress
 interface ResearchProgress {
   stage: "planning" | "researching" | "reporting" | null;
@@ -2164,6 +2163,7 @@ export const useGlobal = () => {
   if (!context) throw new Error("useGlobal must be used within GlobalProvider");
   return context;
 };
+
 
 
 
