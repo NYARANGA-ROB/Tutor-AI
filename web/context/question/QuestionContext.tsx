@@ -55,7 +55,6 @@ export function QuestionProvider({ children }: { children: React.ReactNode }) {
         parsing: "parsing",
         processing: "extracting",
       };
-
       switch (data.type) {
         case "log":
           addQuestionLog(data);
@@ -649,6 +648,7 @@ export const useQuestion = () => {
     throw new Error("useQuestion must be used within QuestionProvider");
   return context;
 };
+
 
 
 
