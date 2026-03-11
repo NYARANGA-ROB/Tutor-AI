@@ -47,7 +47,6 @@ export function ResearchProvider({ children }: { children: React.ReactNode }) {
       skipRephrase: boolean = false,
     ) => {
       if (researchWs.current) researchWs.current.close();
-
       setResearchState((prev) => ({
         ...prev,
         status: "running",
@@ -220,6 +219,7 @@ export const useResearch = () => {
     throw new Error("useResearch must be used within ResearchProvider");
   return context;
 };
+
 
 
 
