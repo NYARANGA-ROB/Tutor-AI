@@ -50,7 +50,6 @@ interface TokenStats {
   output_tokens: number;
   cost: number;
 }
-
 // Progress Info
 interface ProgressInfo {
   stage: "investigate" | "solve" | "response" | null;
@@ -2170,6 +2169,7 @@ export const useGlobal = () => {
   if (!context) throw new Error("useGlobal must be used within GlobalProvider");
   return context;
 };
+
 
 
 
