@@ -15,7 +15,6 @@ import {
   INITIAL_RESEARCH_CONTEXT_STATE,
 } from "@/types/research";
 import { LogEntry } from "@/types/common";
-
 // Context type
 interface ResearchContextType {
   researchState: ResearchContextState;
@@ -226,4 +225,5 @@ export const useResearch = () => {
     throw new Error("useResearch must be used within ResearchProvider");
   return context;
 };
+
 
