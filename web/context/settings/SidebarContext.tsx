@@ -15,7 +15,6 @@ import {
   DEFAULT_SIDEBAR_DESCRIPTION,
   DEFAULT_NAV_ORDER,
 } from "@/types/sidebar";
-
 // Helper to get initial sidebar width from localStorage
 function getInitialSidebarWidth(): number {
   if (typeof window === "undefined") return SIDEBAR_DEFAULT_WIDTH;
@@ -176,4 +175,5 @@ export const useSidebar = () => {
 
 // Re-export the SidebarNavOrder type for convenience
 export type { SidebarNavOrder };
+
 
