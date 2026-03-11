@@ -42,7 +42,6 @@ export function QuestionProvider({ children }: { children: React.ReactNode }) {
     INITIAL_QUESTION_CONTEXT_STATE,
   );
   const questionWs = useRef<WebSocket | null>(null);
-
   const addQuestionLog = useCallback((log: LogEntry) => {
     setQuestionState((prev) => ({ ...prev, logs: [...prev.logs, log] }));
   }, []);
@@ -650,6 +649,7 @@ export const useQuestion = () => {
     throw new Error("useQuestion must be used within QuestionProvider");
   return context;
 };
+
 
 
 
