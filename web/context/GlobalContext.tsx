@@ -314,7 +314,6 @@ interface GlobalContextType {
   // Persistence utilities
   clearAllPersistence: () => void;
 }
-
 const GlobalContext = createContext<GlobalContextType | undefined>(undefined);
 
 // --- Default State Constants ---
@@ -2166,6 +2165,7 @@ export const useGlobal = () => {
   if (!context) throw new Error("useGlobal must be used within GlobalProvider");
   return context;
 };
+
 
 
 
