@@ -112,7 +112,6 @@ export function QuestionProvider({ children }: { children: React.ReactNode }) {
           }
           break;
         }
-
         case "question_update": {
           const statusMessage =
             data.status === "generating"
@@ -645,6 +644,7 @@ export const useQuestion = () => {
     throw new Error("useQuestion must be used within QuestionProvider");
   return context;
 };
+
 
 
 
