@@ -61,7 +61,6 @@ interface ProgressInfo {
     step_target?: string;
   };
 }
-
 // Solver State
 interface SolverState {
   sessionId: string | null;
@@ -2169,6 +2168,7 @@ export const useGlobal = () => {
   if (!context) throw new Error("useGlobal must be used within GlobalProvider");
   return context;
 };
+
 
 
 
