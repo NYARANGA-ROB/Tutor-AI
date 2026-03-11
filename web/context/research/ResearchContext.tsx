@@ -35,7 +35,6 @@ export function ResearchProvider({ children }: { children: React.ReactNode }) {
     INITIAL_RESEARCH_CONTEXT_STATE,
   );
   const researchWs = useRef<WebSocket | null>(null);
-
   const addResearchLog = useCallback((log: LogEntry) => {
     setResearchState((prev) => ({ ...prev, logs: [...prev.logs, log] }));
   }, []);
@@ -223,6 +222,7 @@ export const useResearch = () => {
     throw new Error("useResearch must be used within ResearchProvider");
   return context;
 };
+
 
 
 
