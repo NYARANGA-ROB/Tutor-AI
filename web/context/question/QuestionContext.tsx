@@ -45,7 +45,6 @@ export function QuestionProvider({ children }: { children: React.ReactNode }) {
   const addQuestionLog = useCallback((log: LogEntry) => {
     setQuestionState((prev) => ({ ...prev, logs: [...prev.logs, log] }));
   }, []);
-
   // Helper function to handle mimic WebSocket messages
   const handleMimicWsMessage = useCallback(
     (data: any, ws: WebSocket) => {
@@ -647,6 +646,7 @@ export const useQuestion = () => {
     throw new Error("useQuestion must be used within QuestionProvider");
   return context;
 };
+
 
 
 
