@@ -104,7 +104,6 @@ interface QuestionProgressInfo {
 interface QuestionAgentStatus {
   [key: string]: "pending" | "running" | "done" | "error";
 }
-
 // Question Token Stats
 interface QuestionTokenStats {
   model: string;
@@ -2165,6 +2164,7 @@ export const useGlobal = () => {
   if (!context) throw new Error("useGlobal must be used within GlobalProvider");
   return context;
 };
+
 
 
 
