@@ -41,7 +41,6 @@ interface ChatMessage {
 interface AgentStatus {
   [key: string]: "pending" | "running" | "done" | "error";
 }
-
 // Token Stats
 interface TokenStats {
   model: string;
@@ -2171,6 +2170,7 @@ export const useGlobal = () => {
   if (!context) throw new Error("useGlobal must be used within GlobalProvider");
   return context;
 };
+
 
 
 
