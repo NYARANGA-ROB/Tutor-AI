@@ -80,7 +80,6 @@ export function ResearchProvider({ children }: { children: React.ReactNode }) {
       }));
       const ws = new WebSocket(wsUrl("/api/v1/research/run"));
       researchWs.current = ws;
-
       ws.onopen = () => {
         ws.send(
           JSON.stringify({
@@ -219,6 +218,7 @@ export const useResearch = () => {
     throw new Error("useResearch must be used within ResearchProvider");
   return context;
 };
+
 
 
 
