@@ -73,7 +73,6 @@ interface SolverState {
   tokenStats: TokenStats;
   progress: ProgressInfo;
 }
-
 // Question Progress Info
 interface QuestionProgressInfo {
   stage:
@@ -2168,6 +2167,7 @@ export const useGlobal = () => {
   if (!context) throw new Error("useGlobal must be used within GlobalProvider");
   return context;
 };
+
 
 
 
