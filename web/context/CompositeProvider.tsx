@@ -1,5 +1,4 @@
 "use client";
-
 import React from "react";
 import { SolverProvider } from "./solver";
 import { QuestionProvider } from "./question";
@@ -33,6 +32,7 @@ export function CompositeProvider({ children }: { children: React.ReactNode }) {
   );
   
 }
+
 
 
 
