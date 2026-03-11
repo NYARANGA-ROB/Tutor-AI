@@ -72,7 +72,6 @@ export function QuestionProvider({ children }: { children: React.ReactNode }) {
           }
           break;
         }
-
         case "progress": {
           const stage = data.stage || "generating";
           if (data.message) {
@@ -646,6 +645,7 @@ export const useQuestion = () => {
     throw new Error("useQuestion must be used within QuestionProvider");
   return context;
 };
+
 
 
 
