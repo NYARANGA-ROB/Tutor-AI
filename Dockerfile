@@ -19,7 +19,6 @@ WORKDIR /app/web
 
 # Accept build argument for backend port
 ARG BACKEND_PORT=8001
-
 # Copy package files first for better caching
 COPY web/package.json web/package-lock.json* ./
 
