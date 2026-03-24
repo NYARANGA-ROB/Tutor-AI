@@ -17,7 +17,6 @@
 FROM node:22-slim AS frontend-builder
 WORKDIR /app/web
 
-
 # Accept build argument for backend port
 ARG BACKEND_PORT=8001
 
