@@ -21,7 +21,6 @@ WORKDIR /app/web
 ARG BACKEND_PORT=8001
 # Copy package files first for better caching
 COPY web/package.json web/package-lock.json* ./
-
 # Install dependencies
 RUN npm ci --legacy-peer-deps
 
