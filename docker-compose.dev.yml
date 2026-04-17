@@ -12,6 +12,7 @@ services:
   deeptutor:
     build:
       target: development
+      
     volumes:
       # Mount source code for hot-reload (read-only to prevent accidental writes)
       - ./src:/app/src:ro
