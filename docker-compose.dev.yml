@@ -5,6 +5,7 @@
 # This override file provides:
 #   - Hot-reload for both frontend and backend
 #   - Source code mounting for live editing
+
 #   - Development-friendly logging
 # ============================================
 services:
